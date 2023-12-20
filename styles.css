@@ -1,0 +1,17 @@
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	/* Grid */
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
+}
+
+.concert-container {
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
