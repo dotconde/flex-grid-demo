@@ -1,3 +1,10 @@
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+
 .container {
 	width: 90%;
 	max-width: 1200px;
@@ -25,4 +32,11 @@
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
+}
+
+.concert-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
