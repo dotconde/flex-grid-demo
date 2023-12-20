@@ -40,3 +40,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+	/* Flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
