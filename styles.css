@@ -53,3 +53,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
